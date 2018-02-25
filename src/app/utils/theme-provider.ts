@@ -16,7 +16,11 @@ function _guessBsVersion(): 'bs3' | 'bs4' {
     return 'bs3';
   }
 
-  return rect.top === 0 ? 'bs4' : 'bs3';
+  // return rect.top === 0 ? 'bs4' : 'bs3';
+
+  return 'bs4';
+
+
 }
 
 export function setTheme(theme: 'bs3' | 'bs4'): void {
